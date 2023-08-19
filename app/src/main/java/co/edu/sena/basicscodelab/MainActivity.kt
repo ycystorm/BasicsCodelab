@@ -73,7 +73,7 @@ fun OnboardingScreen(
         verticalArrangement = Arrangement.Center,
         horizontalAlignment = Alignment.CenterHorizontally
     ) {
-        Text("Bienvenido a mi aplicacion ")
+        Text("Welcome to the Basics Codelab!")
         Button(
             modifier = Modifier.padding(vertical = 24.dp),
             onClick = onContinueClicked
@@ -181,4 +181,3 @@ fun MyAppPreview() {
         MyApp(Modifier.fillMaxSize())
     }
 }
-
